@@ -18,7 +18,7 @@
 {% require_script "pages/cart" %}
 
 {% preload_json model "cart" %}
-
+<p>MY CHANGES</p>
 <div class="mz-l-container">
 	<h1 class="mz-pagetitle">{{ labels.cart }}</h1>
 	<form method="post" action="{{ siteContext.secureHost }}{{siteContext.siteSubdirectory}}/cart/checkout" id="cartform">
